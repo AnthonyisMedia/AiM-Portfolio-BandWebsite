@@ -1,0 +1,666 @@
+h1 {
+    /*making the heading look as much as my logo font and have it change size with the window*/
+    
+    position: absolute;
+    bottom: 10%;
+    left: 30px;
+    /*color: #27aae1;*/
+    
+    color: linear-gradient(#f7C000 11%, #f7C000, #f7C000 99%);
+    /*--Title Gradient--*/
+    
+    background: -webkit-linear-gradient(#f7C000, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "DIN Condensed", arial, Courier New, verdana;
+    letter-spacing: 10px;
+    font-size: 36px;
+    text-transform: uppercase;
+    z-index: 1;
+}
+.siteName {
+    /*border: 2px solid magenta;*/
+}
+/* HEADING 2 STYLE  to make it visually apealing*/
+
+h2 {
+    font-family: Franklin Gothic, arial, verdana;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    /* 24px*/
+    
+    color: #515151;
+    margin-left: 12px;
+}
+/* HEADING 3 STYLE to make it stand out on top of it's parent*/
+
+h3 {
+    font-family: Franklin Gothic, arial, verdana;
+    font-weight: 400;
+    color: #363636;
+}
+.sectionContainer,
+#tourSection,
+#discographyContainer,
+.ablumDescription,
+.trackListing {
+    background-color: white;
+    box-sizing: border-box;
+    padding-top: 1px;
+    padding-left: 1.25em;
+    /*20px*/
+    
+    padding-right: 20px;
+    /*20px*/
+    
+    padding-bottom: 20px;
+    /*box-shadow: 10px 10px 20px 1px #999;*/
+    
+    box-shadow: 5px 5px 5px 0px rgb(72, 72, 72);
+}
+#discographyContainer {
+    margin-bottom: 10px;
+}
+.ablumDescription {
+    margin-right: 0px;
+    margin-bottom: 10px;
+}
+/*=====Testing stuff ====*/
+
+.col-md-6 {
+    padding: 0px;
+    position: relative;
+}
+.col-md-8 {
+    padding: 0px;
+}
+.col-md-4 {
+    padding: 0px;
+    margin-bottom: 80px;
+}
+.col-sm-2 {
+    text-align: center;
+}
+#discographyBottom {
+    position: relative;
+}
+#memento {
+    margin: 10px;
+}
+/*===============Header Section===================*/
+
+#headerBanner {
+    width: 100%;
+}
+#banner {
+    position: relative;
+}
+/*=================About Section========================*/
+
+#aboutPic {
+    float: right;
+    margin: 20px;
+}
+#aboutContent {
+    position: relative;
+    top: 300%;
+}
+#aboutPicMobileContainer {
+    height: 300px;
+    overflow: hidden;
+}
+.aboutColumn {
+    width: 100%;
+}
+.aboutPicColumn {
+    width: 40%
+}
+#aboutPicMobile {
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 100%;
+}
+#aboutPicDesktop {
+    display: none;
+}
+/*==============Tour Section ============================*/
+
+#floatContainer {} #tourSection {
+    width: 280px;
+    padding: 20px 20px 1px 20px;
+}
+.tourPost {
+    position: relative;
+    width: 240px;
+    background-color: #a1a1a1;
+    margin-bottom: 20px;
+}
+.tourButton {
+    position: relative;
+    text-align: center;
+    width: 60px;
+    height: 70px;
+    /*background: linear-gradient(#585858 11%, #000000, #696969 99%);*/
+}
+.tourButtonPic {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+.showDate {
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+    top: 12px;
+    text-align: center;
+    z-index: 2;
+    font-size: 14px;
+}
+/*Day of the month Style*/
+
+.showDayNumber {
+    margin: -10px;
+    font-size: 28px;
+}
+/*Container for the Show title and Location*/
+
+.showTitleContainer {
+    position: absolute;
+    top: 16px;
+    right: 20px;
+    line-height: 18px;
+}
+.showTitle {
+    font-size: 14px;
+    color: #010101;
+}
+.showLocation {
+    font-size: 14px;
+    color: #ffffff;
+}
+/*General Paragraph stlye that is not meant to take attention away from what your's actually reading*/
+
+p {
+    font-family: arial, verdana;
+    color: #363636;
+    font-size: 1em;
+}
+/*====================Diccography Section ======================*/
+
+#discographyContainer {
+    padding-top: 10px;
+    padding-bottom: -10px;
+}
+.albumContainer {
+    margin-left: 10px;
+    overflow: hidden;
+    width: 1000px;
+}
+.albumSlot {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+    display: inline;
+}
+.albumArt {
+    max-width: 100%;
+}
+audio {
+    width: 100%;
+}
+.trackName {
+    font-family: Franklin Gothic, arial, verdana;
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: red;
+    margin-bottom: 0px;
+    border-bottom: solid black;
+}
+
+/*------Track links styles--------*/
+.trackName a {
+    color: #be9401;
+    text-decoration: none;
+}
+.trackName a:link {
+    color: black;
+}
+/* selected link */
+
+.trackName a:hover {
+    color: #be9401;
+    text-decoration: none;
+}
+/*Track Name Links*/
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+a:visited {
+    color: black;
+}
+/*Unvisted Link style to remove overused desualt link styling*/
+
+a:link {
+    color: #000000;
+}
+
+/* visited link stlye to make link visible*/
+
+#trackList {
+    list-style: none;
+    padding-left: 0;
+    color: black;
+}
+#mementoDesktop {
+    display: none;
+    margin: 0 auto;
+}
+#mementoMobile {
+    margin: 0 auto;
+    margin-top: 20px;
+}
+/*===================BootStrap Related ======================*/
+
+.nav {
+    float: right;
+}
+/*-----Nav Bar Toggle -----------*/
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: none;
+    border-radius: 4px;
+}
+.navbar-toggle:focus {
+    outline: 0;
+}
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+}
+.navbar-toggle .icon-bar + .icon-bar {
+    margin-top: 4px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #f7C000;
+}
+/*Navigation Bar*/
+
+.navbar-default {
+    background-color: #000000;
+    background: linear-gradient(#585858 11%, #000000, #696969 99%);
+    border-radius: 0px;
+    border: none;
+    margin: 0px;
+}
+.navbar-nav {
+    background-color: #000000;
+    background: linear-gradient(#585858 11%, #000000, #696969 99%);
+}
+.navbar-brand {
+    width: 190px;
+    background-color: #000000;
+    background: linear-gradient(#585858 11%, #000000, #696969 99%);
+    border-right-color: 1px solid #363636;
+    color: #f7C000;
+    text-align: center;
+}
+/*Brand Highlight Style*/
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #ffd74d;
+    background-color: transparent;
+}
+/* Style of narbar brand by default */
+
+.navbar-default .navbar-brand {
+    color: #f7c000;
+    border-right: 1px solid #363636;
+}
+/*Colour of navbar links by default*/
+
+.navbar-default .navbar-nav > li > a {
+    color: #f7C000;
+    border-right: 1px solid #363636;
+    width: 120px;
+    text-align: center;
+}
+/*Colour of navbar links when fouces on*/
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #ffd74d;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #00BCEF;
+    background-color: #e7e7e7;
+}
+.navbar-default .navbar-nav > .disabled > a,
+.navbar-default .navbar-nav > .disabled > a:hover,
+.navbar-default .navbar-nav > .disabled > a:focus {
+    color: #00BCEF;
+    background-color: transparent;
+}
+/*-------------News Post Carousel-------------------*/
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 100%;
+    margin: auto;
+}
+#newsSlider {
+    margin-bottom: 20px;
+}
+/*Carousel Indicators*/
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000 \9;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #0095f2;
+    border-radius: 10px;
+}
+.carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    background-color: #00ffeb;
+}
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+}
+/*Carousel Arrows */
+
+.carousel-control:hover,
+.carousel-control:focus {
+    color: #fff;
+    text-decoration: none;
+    filter: alpha(opacity=90);
+    outline: 0;
+    opacity: .9;
+}
+/*=========================Contact Page Form Stlying to structure the form =================================*/
+/*Style for Tables*/
+
+table,
+th,
+td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 2%;
+    margin: auto;
+    font-family: verdana;
+}
+caption {
+    font-family: verdana;
+    color: black;
+    font-size: 1.75em;
+    text-shadow: 5px 5px 10px gray;
+}
+/*Style for Form*/
+
+fieldset {
+    background-color: #e5f2ff;
+    border: none;
+    border-radius: 2px;
+    overflow: hidden;
+    padding: 1%;
+    width: 50%;
+    margin-bottom: 5%;
+}
+/*Style for Label*/
+
+.requiredField2833 {
+    padding-top: 3px 6px;
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+    width: 6.25em;
+}
+/* Message label Stlye*/
+
+#messageHeading2833 {
+    padding-top: 3px 6px;
+    display: block;
+    text-align: left;
+    vertical-align: top;
+    width: 6.25em;
+}
+/*Style for textarea Input*/
+
+textarea {
+    width: 90%;
+    /* or width 300px for a non reposonsive webpage*/
+    
+    height: 100%;
+    /* or width 700px for a non reposonsive webpage*/
+    
+    text-align: left;
+    border: 1px solid #ccc;
+    font-family: inherit;
+    padding: 2px;
+}
+/*Style for submit Button to look like a button*/
+
+.btn2833 {
+    font-family: arial;
+    background-color: #003f8c;
+    border: none;
+    border-radius: 4%;
+    box-shadow: 2px 2px 2px #333;
+    color: #fff;
+    font-size: .825em;
+    padding: 8px;
+    text-shadow: 1px 1px 0px #ccc;
+}
+#contactForm2833 {
+    display: block;
+    position: relative;
+}
+/* Company repersentitive avatar Stlye to position it appropriately*/
+/*disclaimer message Stlye to contrain it's size*/
+
+#disclaimer2833 {
+    width: 50%;
+}
+/*=========================Sematic Elements Related Code===============================*/
+/*Main Paragraph Element STYLE */
+
+main > p {
+    text-decoration: none;
+    text-align: justify;
+}
+/* BODY ELEMENT STYLE  to make it visually appealing*/
+
+body {
+    font-family: arial, verdana;
+    /*Marking Required Stlyes*/
+    
+    background-color: black;
+    background: linear-gradient(#b38b2c, black);
+}
+/* FOOTER ELEMENT STYLE to make it Stand out*/
+
+footer {
+    background: #003471;
+    padding: 1%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 12px;
+    color: text-align: center;
+    background: linear-gradient(#4a4a4a, black 72%);
+}
+/*Font Style for paragraphs in Footer to allign and change colour*/
+
+footer p {
+    text-align: center;
+    color: #f7C000;
+}
+address {
+    text-align: center;
+}
+/* DIV ELEMENT CLASS "CONTAINER" creates The White Background*/
+
+.container2833 {
+    position: relative;
+    margin: 0 auto;
+    top: 10%;
+    width: 85%;
+    background-color: #d9b03c;
+    /* White */
+}
+/* Main ELEMENT STLYE to position and size it appropialty */
+
+main {
+    margin: 0 auto;
+    /*Centers the main within the container*/
+    
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: #d9b03c;
+}
+/*========================Media Queries==================*/
+/* Smartphones (portrait) ----------- */
+
+@media screen and (max-width: 500px) {
+    main {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .container2833 {
+        width: 100%;
+    }
+}
+/* Smallest Browser Size on Desktop ----------- */
+
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+    h1 {
+        /*making the heading look as much as my logo font and have it change size with the window*/
+        
+        position: absolute;
+        bottom: 1%;
+        left: 30px;
+        font-size: 20px;
+    }
+    /*Syle of navbar links*/
+    
+    .navbar-default .navbar-nav > li > a {
+        width: auto;
+    }
+    #aboutPicMobileContainer {
+        height: 200px;
+        overflow: hidden;
+    }
+}
+/* iPads (portrait and landscape) ----------- */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {}
+/* Desktops and laptops ----------- */
+
+@media only screen and (min-width: 1224px) {
+    .container2833 {
+        width: 960px;
+    }
+}
+/* Large screens ----------- */
+
+@media only screen and (min-device-width: 1824px) {}
+/* Nav Bar REalted */
+
+@media (min-width: 768px) {
+    /*Syle of navbar links*/
+    
+    .navbar-default .navbar-nav > li > a {
+        width: auto;
+    }
+}
+/* Bootstrap Rewritting ----------- */
+
+@media (min-width: 992px) {
+    #aboutPicMobileContainer {
+        display: none;
+    }
+    /*Syle of navbar links*/
+    
+    .navbar-default .navbar-nav > li > a {
+        width: 120px;
+    }
+    #mementoDesktop {
+        display: block;
+    }
+    #mementoMobile {
+        display: none;
+    }
+    #floatContainer {
+        float: right;
+    }
+    .ablumDescription {
+        margin-right: 10px;
+    }
+    #memento {
+        position: absolute;
+        top: 40%;
+        left: 0%;
+    }
+    #aboutPicDesktop {
+        display: block;
+    }
+    #aboutPicMobile {
+        display: none;
+        margin: 0 auto;
+    }
+    .aboutColumn {
+        width: 60%;
+    }
+    .newsColumn {
+        width: 60%;
+    }
+    .tourColumn {
+        width: 40%;
+    }
+}
